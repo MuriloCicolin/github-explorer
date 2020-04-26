@@ -72,9 +72,9 @@ const Repository: React.FC = () => {
 
   async function handlePage(action:any) {
     if(action === 'Anterior') {
-     await setPage(page - 1)
+      setPage(page - 1)
     } else {
-     await setPage(page + 1)
+      setPage(page + 1)
     }
 
   }
